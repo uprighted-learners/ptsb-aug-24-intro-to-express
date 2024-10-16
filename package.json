@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-express",
+  "version": "1.0.0",
+  "description": "Learning how to spin up an Express server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "author": "Paul Niemczyk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
